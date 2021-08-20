@@ -50,7 +50,7 @@ class CreateTenant extends Command
                 '--seed'
             ]);
         }
-        if(!$companies->count()){
+        if (!$companies->count()) {
             $this->error('Ids of tenant not found in table.');
         }
     }
